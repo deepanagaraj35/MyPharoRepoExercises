@@ -5,6 +5,18 @@ Class {
 }
 
 { #category : #running }
+MyDoubleLinkedListTest >> MetaInformation [
+
+| methodslist  |
+methodslist  := DoubleLinkedListTest comment;
+					 package ; 
+					 class ; 
+					 instanceSide;
+					 methods ;
+					 superclass 
+]
+
+{ #category : #running }
 MyDoubleLinkedListTest >> testAddAfterLink [
 	| list link |
 	list := DoubleLinkedList new.
